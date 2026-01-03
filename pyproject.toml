@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stb-global-solutions-inc"
+version = "0.1.0"
+description = "A Python project"
+authors = [
+    {name = "STB Global Solutions Inc", email = "info@stbglobal.com"},
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.scripts]
+stb-main = "project_name.main:main"
